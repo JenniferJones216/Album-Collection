@@ -5,7 +5,7 @@ Our super hip ironic friend needs an easy way to curate soundscapes for the Ital
 They have tasked us with creating an application that can easily keep track of their EXTENSIVE record collection and access music by artists or albums. This collection is in a constant state of flux, so it is essential for the users to be able to update the collection and it's elements.
 
 ## Requirements
-We are going to create an API using ASP.Net Entity Framework that will handle our DB and interactions with it.
+an API using ASP.Net Entity Framework that will handle our DB and interactions with it.
 - Create a RESTful API with ASP.Net
 - Endpoints for the following:
    - All CRUD operations for artists

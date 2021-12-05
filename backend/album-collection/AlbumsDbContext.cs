@@ -34,7 +34,7 @@ namespace album_collection
 		protected override void OnModelCreating(ModelBuilder modelbuilder)
 		{
 			modelbuilder.Entity<Album>().HasData(
-				new Album(1, "The Wall", 1, "https://static.wikia.nocookie.net/pinkfloyd/images/f/f5/The_Wall.jpg/revision/latest?cb=20181104235825", "RecordLabel"),
+				new Album(1, "The Wall", 1, "https://m.media-amazon.com/images/I/8145RpwlT1L._SX355_.jpg", "RecordLabel"),
 				new Album(2, "Out Of Step", 2, "https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Minor_Threat_-_Out_of_Step.jpg/220px-Minor_Threat_-_Out_of_Step.jpg", "Dischord Records"),
 				new Album(3, "Not a Pretty Girl", 3, "https://cdn.shopify.com/s/files/1/0153/0645/products/notaprettygirl_1024x1024.jpeg?v=1571262453", "Riot Grrrl Records")
 				);
